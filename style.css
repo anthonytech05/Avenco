@@ -302,7 +302,11 @@ footer{
 
 
 /* Media query starts here */
-@media screen and (max-width:480px){
+@media screen and (max-width:850px){
+    body{
+        overflow-x: hidden;
+    }
+    
     .link{
         display: none;
     }
@@ -313,7 +317,7 @@ footer{
 
     .main-container{
          grid-template-columns: 1fr;
-         padding: 0 20px;
+         padding: 0 30px;
          gap: 10px;
     }
 
