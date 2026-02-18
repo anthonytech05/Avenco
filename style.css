@@ -302,7 +302,7 @@ footer{
 
 
 /* Media query starts here */
-@media screen and (max-width:850px){
+@media screen and (max-width:768px){
     body{
         overflow-x: hidden;
     }
