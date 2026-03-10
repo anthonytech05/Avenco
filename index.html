@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AVENCO</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="images/Avenco logo.png">
+    <link rel="icon" href="images/Avenco_logo-removebg-preview.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <!-- nav starts here -->
@@ -23,16 +24,18 @@
         <div class="button">
             <button>🛒<span>0</span></button>
         </div>
+
+        <div id="date"></div>
         
      </nav>
      <!-- nav ends here -->
 
      <!-- section starts here -->
-      <section class="hero">
+      <section class="hero" data-aos="zoom-in">
         <div class="hero-section">
             <h2>AVENCO</h2>
             <P>Elevate Your Style with Premium Fashion</P>
-            <button class="btn">SHOW NOW</button>
+            <button class="btn">SHOP NOW</button>
         </div>
        </section>
        <!-- section ends here -->
@@ -185,6 +188,12 @@
 
            </footer>
 
+           <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+           <script>
+          AOS.init();
+         </script>
 
+
+<script src="script.js"></script>
 </body>
 </html>
