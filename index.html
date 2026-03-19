@@ -25,7 +25,7 @@
             <button>🛒<span>0</span></button>
         </div>
 
-        <div id="date"></div>
+        <!-- <div id="date"></div> -->
         
      </nav>
      <!-- nav ends here -->
@@ -35,7 +35,7 @@
         <div class="hero-section">
             <h2>AVENCO</h2>
             <P>Elevate Your Style with Premium Fashion</P>
-            <button class="btn">SHOP NOW</button>
+            <button class="btn" onclick="document.getElementById('new-arrivals').scrollIntoView({behavior:'smooth'})">SHOP NOW</button>
         </div>
        </section>
        <!-- section ends here -->
@@ -63,11 +63,11 @@
         <!-- article ends here -->
 
         <!-- main starts here -->
-         <main>
+         <main id="new-arrivals" data-aos="zoom-in-right">
             <h3>New Arrivals</h3>
             <p>Discover our latest collection of premium fashion</p>
 
-            <div class="main-container">
+            <div class="main-container" data-aos="zoom-in-up">
                 <div class="content">
                     <img src="images/Cap sweater.jpg" alt="">
                     <span>NEW</span>
@@ -132,7 +132,7 @@
          <!-- main ends here -->
 
          <!-- section starts here -->
-          <section class="product">
+          <section class="product" data-aos="fade-up-right">
             <h2>Join Our Newsletter</h2>
             <p>Subscribe to get special offers, free giveaways, and exclusive deals.</p>
 
@@ -183,7 +183,7 @@
             </div>
 
             <div class="grade">
-                &copy; 2024 AVENCO. All rights reserved. Designed with excellence.
+               <p>&copy; 2024 AVENCO. All rights reserved. Designed with excellence.</p>
             </div>
 
            </footer>
